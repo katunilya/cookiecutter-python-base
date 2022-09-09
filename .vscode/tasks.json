@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "command": "poetry",
+            "args": [
+                "run",
+                "cookiecutter",
+                "-o",
+                "${workspaceFolder}/tests",
+                "--no-input",
+                "${workspaceFolder}"
+            ],
+            "label": "Test",
+            "dependsOn": [
+                "Clean"
+            ]
+        },
+        {
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "${workspaceFolder}/tests/project-name"
+            ],
+            "label": "Clean"
+        }
+    ]
+}
