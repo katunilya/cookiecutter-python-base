@@ -33,3 +33,16 @@ poetry add <package>
 
 - More about Poetry commands you can read on their [documentation
   page](https://python-poetry.org/docs/cli/).
+
+- Do not forget to initialize `pre-commit` after installing dependencies:
+
+```sh
+pre-commit install
+```
+
+- If you face problems with installing `pre-commit` git hooks follow
+  instructions provided by the tool - usually it's enough to execute:
+
+```sh
+pre-commit autoupdate
+```
