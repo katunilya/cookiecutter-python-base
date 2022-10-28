@@ -5,14 +5,14 @@ description = "{{cookiecutter.description}}"
 authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^{{cookiecutter.python_version}}"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 yastyleguide = "0.1.0"
 pre-commit = "^2.19.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.2.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.commitizen]

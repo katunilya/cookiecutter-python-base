@@ -33,5 +33,5 @@ repos:
     rev: v2.33.1
     hooks:
       - id: commitizen
-        pattern: '(fix|wip|docs|sub|ref)(JML-(\d)+)?:(\\s.*)'
+        pattern: '(fix|wip|docs|sub|ref)({{cookiecutter.commit_prefix}}-(\d)+)?:(\\s.*)'
         stages: [commit-msg]
