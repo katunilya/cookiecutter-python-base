@@ -5,6 +5,6 @@
     "version": "0.1.0",
     "author_name": "John Doe",
     "author_email": "doe@john.com",
-    "commit_prefix": "",
+    "commit_prefix": "#",
     "python_version": "3.9"
 }

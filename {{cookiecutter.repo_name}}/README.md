@@ -2,15 +2,15 @@
 
 {{cookiecutter.description}}
 
-## Gettings Started
+## Getting Started
 
-- Create virtual environment for Python3.9:
+- Create virtual environment for Python{{cookiecutter.python_version}}:
 
 ```sh
-python3.9 -m venv .venv
+python{{cookiecutter.python_version}} -m venv .venv
 ```
 
-- For VS Code useres: Select Interpreter
+- For VS Code users: Select Interpreter
 
 - Install dependencies with `poetry`:
 
@@ -37,12 +37,5 @@ poetry add <package>
 - Do not forget to initialize `pre-commit` after installing dependencies:
 
 ```sh
-pre-commit install
-```
-
-- If you face problems with installing `pre-commit` git hooks follow
-  instructions provided by the tool - usually it's enough to execute:
-
-```sh
-pre-commit autoupdate
+pre-commit install --hook-type pre-commit --hook-type pre-push
 ```

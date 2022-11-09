@@ -15,7 +15,8 @@
             "label": "Test",
             "dependsOn": [
                 "Clean"
-            ]
+            ],
+            "problemMatcher": []
         },
         {
             "type": "shell",

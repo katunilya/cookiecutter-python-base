@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "rioukkevin.vscode-git-commit",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-russian",
+        "IronGeek.vscode-env",
+        "usernamehw.errorlens",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "rangav.vscode-thunder-client",
+        "redhat.vscode-yaml",
+        "humao.rest-client",
+    ],
+}
