@@ -1,3 +1,30 @@
+"""Common settings.
+
+Any application requires settings. This module contains settings specifically for
+FastAPI and API layer. Do not include there anything related to infrastructure or domain
+logic. This dependencies should exist separately for flexibility purposes.
+
+For settings I suggest using environment variables (see *.env files in settings folder)
+and pydantic BaseSettings for reading and validation. It fulfills all requirements that
+I personally have to settings management.
+
+Useful materials:
+    - https://pydantic-docs.helpmanual.io/usage/settings/
+
+----------------------------------------------------------------------------------------
+Общие настройки.
+
+Любое приложение требует настроек. Этот модуль содержит в себе настройки специально для
+FastAPI и API слоя. Не включайте сюда что-либо относящееся к инфраструктуре или
+бизнес-логике. Эти зависимости должны существовать отдельно для большей гибкости.
+
+Для настроек я предлагаю использовать переменные окружения (смотри *.env файлы в папке
+settings) и pydantic BaseSettings для чтения и валидации. Он полностью покрывает мои
+требования к настройкам.
+
+Полезные материалы:
+    - https://pydantic-docs.helpmanual.io/usage/settings/
+"""
 from fastapi import FastAPI
 from pydantic import BaseSettings, Field
 
