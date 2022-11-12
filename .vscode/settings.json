@@ -1,6 +1,18 @@
 {
     "cSpell.words": [
-        "cookiecutter"
+        "camelcase",
+        "caseconverter",
+        "cookiecutter",
+        "fastapi",
+        "fundom",
+        "PYTHONFAULTHANDLER",
+        "PYTHONHASHSEED",
+        "PYTHONUNBUFFERED",
+        "uvicorn",
+        "yastyleguide",
+        "версионированием",
+        "версионное",
+        "монадической"
     ],
     "python.formatting.provider": "black"
 }

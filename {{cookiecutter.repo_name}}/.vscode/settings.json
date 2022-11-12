@@ -7,7 +7,21 @@
     "python.testing.pytestArgs": [
         "tests"
     ],
-    // "vscodeGitCommit.template": [
-    //     "{{cookiecutter.commit_prefix}}{issue-number}: {message}"
+    "cSpell.words": [
+        "camelcase",
+        "caseconverter",
+        "cookiecutter",
+        "fastapi",
+        "fundom",
+        "uvicorn",
+        "yastyleguide",
+        "версионированием",
+        "версионное",
+        "монадической"
+    ],
+    // Uncomment and configure section below for custom commmit message format. It helps
+    // to write formatted commit messages, but does not validate them.
+    // "vscodeGitCommit.template": [ 
+    //     "{{cookiecutter.commit_prefix}}{issue-number}:{message}"
     // ]
 }

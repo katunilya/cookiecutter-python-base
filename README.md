@@ -1,6 +1,6 @@
 # Cookiecutter Python Base
 
-Simplistic Python3.9 project with some basic development setup.
+Simplistic Python3.9+ project with some basic development setup.
 
 To create a new project run:
 

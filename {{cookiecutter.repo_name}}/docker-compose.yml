@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    # This approach would build new image tagged as repository on every docker compose
+    # up command with latest version
+    image: {{cookiecutter.repo_name}}:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8080:8080
